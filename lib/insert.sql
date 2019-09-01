@@ -1,21 +1,26 @@
 INSERT INTO bear (name, age, gender, color, temperament, alive) VALUES (
   'Mr. Chocolate', 3, 'male', 'black', 'angry', 1);
+INSERT INTO bear (name, age, gender, color, temperament, alive) VALUES (
+    'Rowdy', 2, 'female', 'brown', 'calm', 1);
+INSERT INTO bear (name, age, gender, color, temperament, alive) VALUES (
+    'Tabitha', 4, 'male', 'white', 'gentle', 1);
+INSERT INTO bear (name, age, gender, color, temperament, alive) VALUES (
+    'Sergeant Brown', 5, 'female', 'black', 'calm', 1);
+INSERT INTO bear (name, age, gender, color, temperament, alive) VALUES (
+    'Melissa', 1, 'male', 'black', 'angry', 1);
+INSERT INTO bear (name, age, gender, color, temperament, alive) VALUES (
+  'Grinch', 3, 'female', 'brown', 'angry', 1);
+INSERT INTO bear (name, age, gender, color, temperament, alive) VALUES (
+  'Wendy', 3, 'male', 'white', 'gentle', 1);
+INSERT INTO bear (name, age, gender, color, temperament, alive) VALUES (
+  NULL, NULL, NULL, NULL, NULL, 0);
 
 ```
-id INTEGER PRIMARY KEY,
-name TEXT,
-age INTEGER,
-gender TEXT,
-color TEXT,
-temperament TEXT,
-alive INTEGER
 
 
-Rowdy
-Tabitha
-Sergeant Brown
-Melissa
-Grinch
-Wendy
+
+
+
+
 unnamed (the bear that killed Tim didn't have a name; refer back to how to create a record that doesn't have one value)
 ```
