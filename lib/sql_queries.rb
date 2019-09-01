@@ -25,7 +25,7 @@ end
 
 def counts_number_of_bears_with_goofy_temperaments
   "SELECT COUNT(temperaments) FROM bears WHERE
-    temeraments = 'goofy"'
+    temeraments = 'goofy'"
 end
 
 def selects_bear_that_killed_Tim
